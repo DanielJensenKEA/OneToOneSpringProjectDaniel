@@ -64,4 +64,16 @@ public class Employee {
     public void setVegetarian(boolean vegetarian) {
         this.vegetarian = vegetarian;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", born=" + born +
+                ", gender=" + gender +
+                ", vegetarian=" + vegetarian +
+                ", user=" + user +
+                '}';
+    }
 }
